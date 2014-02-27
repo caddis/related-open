@@ -39,8 +39,8 @@ class Related_open_ext {
 	{
 		ee()->db->insert('extensions', array(
 			'class' => __CLASS__,
-			'method' => publish_form_entry_data,
-			'hook' => publish_form_entry_data,
+			'method' => 'publish_form_entry_data',
+			'hook' => 'publish_form_entry_data',
 			'settings' => '',
 			'priority' => 10,
 			'version' => $this->version,
