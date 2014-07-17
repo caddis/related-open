@@ -1,4 +1,4 @@
-# ExpressionEngine Related Open 1.0.1
+# ExpressionEngine Related Open 1.0.2
 
 This extension adds links to related items in ExpressionEngine's native multi-relationship field.
 
