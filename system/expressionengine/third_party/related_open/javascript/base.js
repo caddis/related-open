@@ -3,7 +3,7 @@ _.defer(function() {
 		var $relationshipOptions = $('.multiselect li');
 
 		$relationshipOptions.click(function() {
-			_.defer(function() { 
+			_.defer(function() {
 				bindOpen();
 			});
 		});
@@ -20,7 +20,9 @@ _.defer(function() {
 					e.stopPropagation();
 				});
 
-				$this.append($openLink);
+				if ($this.closest('.multiselect').hasClass('empty') === false) {
+					$this.append($openLink);
+				}
 			});
 		}
 

@@ -1,3 +1,9 @@
+# 1.0.2
+
+2014-07-17
+
+- Fixed a bug where an empty relationship field would show an open link.
+
 # 1.0.1
 
 2014-04-10

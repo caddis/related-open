@@ -2,7 +2,7 @@
 	"schema_version": "1.0",
 	"name" : "related_open",
 	"label": "Related Open",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"types": ["extension"],
 	"paths": {
 		"system": [

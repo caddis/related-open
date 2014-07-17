@@ -10,15 +10,15 @@
 
 include(PATH_THIRD . 'related_open/config.php');
 
-class Related_open_ext {   
-	
+class Related_open_ext {
+
 	public $name = RELATED_OPEN_NAME;
 	public $version = RELATED_OPEN_VER;
 	public $description = RELATED_OPEN_DESC;
 	public $docs_url = '';
 	public $settings_exist	= 'n';
 	public $settings = array();
-	
+
 	/**
 	 * Constructor
 	 *
@@ -32,7 +32,7 @@ class Related_open_ext {
 
 	/**
 	 * Activate Extension
-	 * 
+	 *
 	 * @return void
 	 */
 	public function activate_extension()
@@ -55,8 +55,7 @@ class Related_open_ext {
 	 */
 	public function update_extension($current = '')
 	{
-		if ($current == $this->version)
-		{
+		if ($current == $this->version) {
 			return false;
 		}
 
